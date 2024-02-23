@@ -1,0 +1,14 @@
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  errors:
+    constant_identifier_names: ignore
+    non_constant_identifier_names: ignore
+    invalid_annotation_target: ignore
